@@ -58,5 +58,4 @@ pr_prefix: "Bug #12345"
 close_prs: True
 
 
-Django:
-  # pyup: ignore
+Django # pyup: ignore
