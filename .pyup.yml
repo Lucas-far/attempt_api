@@ -1,3 +1,5 @@
+Django==2.2.17 # pyup: <=2.2
+
 # configure updates globally
 # default: all
 # allowed: all, insecure, False
@@ -26,9 +28,6 @@ search: True
 # default: empty
 # allowed: list
 requirements:
-  - requirements.txt:
-      update: all
-      pin: True
   - requirements/staging.txt:
       # update all dependencies and pin them
       update: all
