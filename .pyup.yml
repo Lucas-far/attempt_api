@@ -57,4 +57,5 @@ pr_prefix: "Bug #12345"
 # default: True
 close_prs: True
 
-Django # pyup: ignore
+filter:
+  Django # pyup: ignore
