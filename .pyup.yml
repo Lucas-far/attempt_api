@@ -26,6 +26,8 @@ search: True
 # default: empty
 # allowed: list
 requirements:
+  - requirements.txt:
+      update: False
   - requirements/staging.txt:
       # update all dependencies and pin them
       update: all
@@ -55,4 +57,4 @@ pr_prefix: "Bug #12345"
 # default: True
 close_prs: True
 
-Django # pyup: >2.2,<2.3
+Django # pyup: ignore
