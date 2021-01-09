@@ -55,4 +55,4 @@ pr_prefix: "Bug #12345"
 # default: True
 close_prs: True
 
-Django==2.2.17: # pyup: >2.2,<2.3
+Django # pyup: >2.2,<2.3
