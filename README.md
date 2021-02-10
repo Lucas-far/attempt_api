@@ -1,5 +1,8 @@
 # Hello, please read the steps
 
+[![Updates](https://pyup.io/repos/github/Lucas-far/attempt_api/shield.svg)](https://pyup.io/repos/github/Lucas-far/attempt_api/)
+[![Python 3](https://pyup.io/repos/github/Lucas-far/attempt_api/python-3-shield.svg)](https://pyup.io/repos/github/Lucas-far/attempt_api/)
+
 - Download dependencies -> pip install -r requirements.txt
 - You probably need to create a virtual environment
 - I normally do it as "python3 -m venv .venv" and activate it through "source .venv/bin/activate"
@@ -27,3 +30,9 @@ OPTIONAL (test)
 - from pp.settings import DATABASES
 - DATABASES (printing the variable through terminal)
 - If you can see your data, then things are set correctly
+
+DJANGO COMMANDS
+- python manage.py migrate
+- python manage.py makemigrations
+- python manage.py createsuperuser (http://127.0.0.1:8000/admin)
+- python manage.py runserver (http://127.0.0.1:8000/)
